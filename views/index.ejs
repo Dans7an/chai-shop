@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chai Shop</title>
+    <link
+      rel="stylesheet"
+      href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron text-center">
+        <h1>Chai Shop</h1>
+
+        <div class="coffee-order-center">
+          <h2>What would you like to drink?</h2>
+          <form action="/orders" method="POST">
+            <label for="">Cashier</label>
+            <input type="text" placeholder="Cashier name" name="barista" />
+            <label for="">customer</label>
+            <input
+              type="text"
+              value=""
+              name="customer"
+              placeholder="Customer Name"
+            />
+            <fieldset id="drink">
+              <label for="">Beverage: </label>
+              <input type="radio" value="kopi" name="drink" checked />
+              <label for="">kopi</label>
+              <input type="radio" value="tea" name="drink" />
+              <label for="">tea</label>
+              <input type="radio" value="water" name="drink" />
+              <label for="">water</label>
+            </fieldset>
+            <fieldset id="size">
+                  <label for="">Size: </label>
+              <input type="radio" value="small" name="size" checked />
+              <label for="">small</label>
+              <input type="radio" value="medium" name="size" />
+              <label for="">medium</label>
+              <input type="radio" value="large" name="size" />
+              <label for="">large</label>
+            </fieldset>
+            <fieldset id="milk">
+                  <label for="">Milk Type: </label>
+              <input type="radio" value="skim" name="milk" checked />
+              <label for="">skim</label>
+              <input type="radio" value="regular" name="milk" />
+              <label for="">regular</label>
+              <input type="radio" value="oat" name="milk" />
+              <label for="">oat</label>
+            </fieldset>
+            <fieldset id="sweetener">
+              <label for="">Sweetener: </label>
+              <input type="radio" value="honey" name="sweetener" checked />
+              <label for="">honey</label>
+              <input type="radio" value="regular" name="sweetener" />
+              <label for="">regular</label>
+              <input type="radio" value="maple" name="sweetener-type" />
+              <label for="">maple</label>
+            </fieldset>
+            <fieldset id="temperature">
+              <label for="">Temperature: </label>
+              <input type="radio" value="hot" name="temperature" checked />
+              <label for="">hot</label>
+              <input type="radio" value="cold" name="temperature" />
+              <label for="">iced</label>
+            </fieldset>
+            <input
+              class="text-area"
+              type="text"
+              placeholder="Custom orders"
+              name="note"
+            />
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+
+
+        <p>Login or Signup:</p>
+        <a href="/login" class="btn btn-default"
+          ><span class="fa fa-user"></span>Login</a
+        >
+        <a href="/signup" class="btn btn-default"
+          ><span class="fa fa-user"></span>Signup</a
+        >
+      </div>
+
+
+    </div>
+  </body>
+</html>

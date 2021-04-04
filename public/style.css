@@ -1,0 +1,50 @@
+body {
+  padding-top: 80px;
+  word-wrap: break-word;
+  color: black;
+  background: url(./img/beverage.jfif);
+  font-family: 'Pacifico', cursive;
+}
+.In{
+  background-color: #efefef;
+  border-radius: 5px;
+  box-shadow: 5px 6px 4px 5px;
+}
+
+img {
+  height: 200px;
+}
+.title {
+  color: white;
+}
+h1 {
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+h3{
+  color: white;
+}
+.order {
+  padding: 5px;
+  margin: 3px;
+  border: 1px solid black;
+  background-color: #efefef;
+}
+
+.columns {
+  display: flex;
+  justify-content: center;
+}
+
+.hidden {
+  display: none;
+}
+.completed{
+  margin-left: 5rem;
+}
+.order{
+  border-radius: 7px;
+  box-shadow: 2px 3px 3px 4px;
+}

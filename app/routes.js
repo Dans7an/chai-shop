@@ -1,3 +1,4 @@
+// Collaborated with House Moses memebers on this app 
 const ObjectId = require('mongodb').ObjectId;  // finding records (records = mongodb objects) with a specific id//
 
 module.exports = function (app, passport, db) {

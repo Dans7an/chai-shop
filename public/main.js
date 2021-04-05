@@ -1,4 +1,4 @@
-
+// Collaborated with House Moses memebers on this app 
 //function to get rid of pending order//
 const onCompleteOrder = (event) => {
   const _id = event.target.dataset.value;
